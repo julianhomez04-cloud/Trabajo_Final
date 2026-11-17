@@ -46,15 +46,16 @@ Este repositorio contiene la solución completa del proyecto integrado que se de
 
 ## Cómo compilar y ejecutar
 
+El código está organizado en paquetes; se compila indicando cada subcarpeta y se ejecuta con el nombre completo de la clase. Desde la raíz del proyecto, en Windows:
+
 ```bash
-# Desde la raíz del proyecto
-javac -d out src/**/*.java test/*.java
+javac -d out src\*\*.java src\structures\management\*.java
 
 # Ejecutar la aplicación principal (ingesta completa)
 java -cp out ingest.IngestaSensores
 ```
 
-> **Requisitos**: el archivo `data/lecturas_ampliadas.csv` debe estar presente.
+> **Requisitos**: el archivo `data/lecturas_ampliadas.csv` debe estar presente. En Linux o macOS se reemplaza la línea de `javac` por `javac -d out $(find src -name "*.java")`.
 
 ## Ejecutar experimentos por semana
 
