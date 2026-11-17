@@ -119,4 +119,4 @@ Responde con honestidad:
 - [x] Justifique una decision del proyecto y una alternativa descartada.
 - [x] Registre mis commits y mi aporte individual.
 - [x] Deje claro que queda pendiente.
-- [x] Renombre el archivo con el formato `Trabajo_final-julian.md`.
+- [x] Renombre el archivo con el formato `sXX-nombre.md`.
